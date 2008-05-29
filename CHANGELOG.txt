@@ -1,0 +1,10 @@
+// $Id$
+
+jQuery UI x.x-x.x, xxxx-xx-xx
+-----------------------------
+
+
+jQuery UI 5.x-1.x, xxxx-xx-xx
+-----------------------------
+#263785 by sun: Initial port of jQuery UI for Drupal 5.x.
+
