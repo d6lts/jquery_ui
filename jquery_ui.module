@@ -76,7 +76,7 @@ function jquery_ui_menu() {
     'description' => t('Configure settings for jQuery UI module.'),
     'callback' => 'drupal_get_form',
     'callback arguments' => array('jquery_ui_admin_settings'),
-    'access' => array('access site configuration'),
+    'access' => user_access('administer site configuration'),
   );
 
   return $items;
