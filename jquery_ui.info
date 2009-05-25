@@ -1,5 +1,0 @@
-; $Id$
-name = jQuery UI
-description = Provides the jQuery UI plug-in to other Drupal modules.
-core = 7.x
-files[] = jquery_ui.module
