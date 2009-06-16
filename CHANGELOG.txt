@@ -6,6 +6,7 @@ jQuery UI x.x-x.x, xxxx-xx-xx
 
 jQuery UI 7.x-1.x, xxxx-xx-xx
 -----------------------------
+#357780 by Gábor Hojtsy: Ported to 7.x.
 
 
 jQuery UI 6.x-1.x, xxxx-xx-xx
