@@ -23,13 +23,22 @@ To submit bug reports and feature suggestions, or to track changes:
 
 -- INSTALLATION --
 
-* Copy the jquery_ui module directory to your sites/all/modules directory.
+* Copy the jquery_ui module directory to your sites/all/modules directory, so it
+  is located in sites/all/modules/jquery_ui/.
 
-* Download the jQuery UI 1.7 release from:
+* Download the latest jQuery UI 1.7 release from:
 
     http://code.google.com/p/jquery-ui/downloads/list?q=1.7
 
-* Extract it as a sub-directory called 'jquery.ui' in the jquery_ui folder:
+* Put the downloaded archive into the module directory:
+
+    /sites/all/modules/jquery_ui/jquery.ui-1.7.zip
+
+* Extract the archive.  This will create the following sub-directory:
+
+    /sites/all/modules/jquery_ui/jquery.ui-1.7/
+
+* Rename the sub-directory into "jquery.ui" within the jquery_ui module folder:
 
     /sites/all/modules/jquery_ui/jquery.ui/
 
