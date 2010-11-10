@@ -6,6 +6,8 @@ jQuery UI x.x-x.x, xxxx-xx-xx
 
 jQuery UI 6.x-1.x, xxxx-xx-xx
 -----------------------------
+#489140 by DamienMcKenna, jcmarco, Rob Loach, Dave Reid, sun: Added Libraries
+  API support.
 
 
 jQuery UI 6.x-1.4, 2010-09-08
