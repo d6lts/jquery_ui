@@ -64,11 +64,11 @@ to jQuery UI 1.7, you can get around this by doing the following:
 
 * Put the downloaded archive into the directory:
 
-    /sites/all/libraries/jquery.ui-1.7.zip
+    /sites/all/libraries/jquery-ui-1.7.zip
 
 * Extract the archive.  This will create the following sub-directory:
 
-    /sites/all/libraries/jquery.ui-1.7/
+    /sites/all/libraries/jquery-ui-1.7/
 
 * Rename the sub-directory into "jquery.ui":
 
