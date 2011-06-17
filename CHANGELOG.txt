@@ -1,6 +1,10 @@
 
 jQuery UI 6.x-1.x, xxxx-xx-xx
 -----------------------------
+
+
+jQuery UI 6.x-1.x, 2011-06-16
+-----------------------------
 #489140 by g33nman, sun, oneoftwo: Fixed backwards compatibility.
 #489140 by DamienMcKenna, jcmarco, Rob Loach, Dave Reid, sun: Added Libraries
   API support.
