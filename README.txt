@@ -108,11 +108,13 @@ the following changes:
   how to use them. The required ui.core file is automatically included, as is
   effects.core if you include any effects files.
 
--- CONTACT --
 
-Current maintainers:
+-- CREDITS --
+
+Current maintainer:
+* Daniel F. Kudwien (sun) - http://drupal.org/user/54136
+
+Original authors:
 * Jeff Robbins (jjeff)
 * Angela Byron (webchick)
-* Addison Berry (add1sun)
-* Daniel F. Kudwien (sun) - http://drupal.org/user/54136
 

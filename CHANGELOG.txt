@@ -1,6 +1,7 @@
 
 jQuery UI 6.x-1.x, xxxx-xx-xx
 -----------------------------
+#921726 by add1sun: Fixed maintainers in README.txt.
 
 
 jQuery UI 6.x-1.x, 2011-06-16
