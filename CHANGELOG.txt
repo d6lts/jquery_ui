@@ -1,7 +1,7 @@
 
-jQuery UI x.x-x.x, xxxx-xx-xx
+jQuery UI 8.x-1.x, 2019-07-11
 -----------------------------
-
+- Refactored to provide jQuery UI libraries deprecated from Drupal core.
 
 jQuery UI 7.x-1.x, xxxx-xx-xx
 -----------------------------

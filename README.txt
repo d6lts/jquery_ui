@@ -1,85 +1,44 @@
+## Summary
 
--- SUMMARY --
+Drupal 8 includes jQuery UI in core, however it is no longer actively
+maintained and has been marked deprecated. This module provides the
+jQuery UI library for any themes and modules that require it.
 
-jQuery UI (http://ui.jquery.com/) is a set of cool widgets and effects that
-developers can use to add some pizazz to their modules.
+  - jQuery UI [documentation](https://jqueryui.com/)
+  - jQuery UI [API documentation](https://api.jqueryui.com/)
 
-This module is more-or-less a utility module that should simply be required by
-other modules that depend on jQuery UI being available. It doesn't do anything
-on its own.
+**Caution**: jQuery UI was deprecated from core because it is no longer
+actively maintained, and has been marked “End of Life” by the OpenJS
+Foundation. It is not recommended to depend on jQuery UI in your own
+code, and instead to select a replacement solution as soon as possible.
 
-For a full description of the module, visit the project page:
-  http://drupal.org/project/jquery_ui
+## Instructions
 
-To submit bug reports and feature suggestions, or to track changes:
-  http://drupal.org/project/issues/jquery_ui
+1.  Install this module.
+2.  Change any references in your theme or module from `core/jquery.ui`
+    to `jquery_ui/core`
 
+### Related modules
 
--- REQUIREMENTS --
+  - [jQuery UI Accordion](https://www.drupal.org/project/jquery_ui_accordion)
+  - [jQuery UI Button](https://www.drupal.org/project/jquery_ui_button)
+  - [jQuery UI Checkboxradio](https://www.drupal.org/project/jquery_ui_checkboxradio)
+  - [jQuery UI Controlgroup](https://www.drupal.org/project/jquery_ui_controlgroup)
+  - [jQuery UI Draggable](https://www.drupal.org/project/jquery_ui_draggable)
+  - [jQuery UI Droppable](https://www.drupal.org/project/jquery_ui_droppable)
+  - [jQuery UI Effects](https://www.drupal.org/project/jquery_ui_effects)
+  - [jQuery UI Menu](https://www.drupal.org/project/jquery_ui_menu)
+  - [jQuery UI Progressbar](https://www.drupal.org/project/jquery_ui_progressbar)
+  - [jQuery UI Selectable](https://www.drupal.org/project/jquery_ui_selectable)
+  - [jQuery UI Selectmenu](https://www.drupal.org/project/jquery_ui_selectmenu)
+  - [jQuery UI Slider](https://www.drupal.org/project/jquery_ui_slider)
+  - [jQuery UI Spinner](https://www.drupal.org/project/jquery_ui_spinner)
+  - [jQuery UI Tooltip](https://www.drupal.org/project/jquery_ui_tooltip)
 
-* The jQuery UI library.
-
-
--- INSTALLATION --
-
-* Copy the jquery_ui module directory to your sites/all/modules directory, so it
-  is located in sites/all/modules/jquery_ui/.
-
-* Download the latest jQuery UI 1.7 release from:
-
-    http://code.google.com/p/jquery-ui/downloads/list?q=1.7
-
-* Put the downloaded archive into the module directory:
-
-    /sites/all/modules/jquery_ui/jquery.ui-1.7.zip
-
-* Extract the archive.  This will create the following sub-directory:
-
-    /sites/all/modules/jquery_ui/jquery.ui-1.7/
-
-* Rename the sub-directory into "jquery.ui" within the jquery_ui module folder:
-
-    /sites/all/modules/jquery_ui/jquery.ui/
-
-  so the actual jQuery UI JavaScript files are located in:
-
-    /sites/all/modules/jquery_ui/jquery.ui/ui/*.js
-
-* Enable the module at Administer >> Site building >> Modules.
-
-
--- API --
-
-Developers who wish to use jQuery UI effects in their modules need only make
-the following changes:
-
-* In your module's .info file, add the following line:
-
-    dependencies[] = jquery_ui
-
-  This will force users to have the jQuery UI module installed before they can
-  enable your module.
-
-* In your module, call the following function:
-
-    jquery_ui_add($files);
-
-  For example:
-
-    jquery_ui_add(array('ui.draggable', 'ui.droppable', 'ui.sortable'));
-
-    jquery_ui_add('ui.sortable');  // For a single file
-
-  See the contents of the jquery.ui-X.X sub-directory for a list of available
-  files that may be included, and see http://ui.jquery.com/docs for details on
-  how to use them. The required ui.core file is automatically included, as is
-  effects.core if you include any effects files.
-
--- CONTACT --
-
-Current maintainers:
+## Current maintainers:
 * Jeff Robbins (jjeff)
 * Angela Byron (webchick)
 * Addison Berry (add1sun)
 * Daniel F. Kudwien (sun) - http://drupal.org/user/54136
-
+* Lauri Eskola (lauriii)
+* Peter Weber (zrpnr)
