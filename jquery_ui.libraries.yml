@@ -52,3 +52,9 @@ position:
     jquery.ui/ui/position-min.js: { minified: true }
   dependencies:
     - jquery_ui/core
+
+form-reset:
+  version: *jquery_ui_version
+  license: *jquery_ui_license
+  js:
+    jquery.ui/ui/form-reset-mixin-min.js: { minified: true }
