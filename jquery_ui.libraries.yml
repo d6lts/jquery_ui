@@ -8,6 +8,7 @@ core:
   js:
     jquery.ui/ui/data-min.js: { weight: -11, minified: true }
     jquery.ui/ui/disable-selection-min.js: { weight: -11, minified: true }
+    jquery.ui/ui/escape-selector-min.js: { weight: -11, minified: true }
     jquery.ui/ui/form-min.js: { weight: -11, minified: true }
     jquery.ui/ui/labels-min.js: { weight: -11, minified: true }
     jquery.ui/ui/jquery-1-7-min.js: { weight: -11, minified: true }
