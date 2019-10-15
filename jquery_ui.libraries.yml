@@ -5,59 +5,28 @@ core:
     name: Public Domain
     url: https://github.com/jquery/jquery-ui/blob/1.12.1/LICENSE.txt
     gpl-compatible: true
-  js:
-    jquery.ui/ui/data-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/disable-selection-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/escape-selector-min.js: { minified: true }
-    jquery.ui/ui/form-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/labels-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/jquery-1-7-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/scroll-parent-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/tabbable-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/unique-id-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/version-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/focusable-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/ie-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/keycode-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/plugin-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/safe-active-element-min.js: { weight: -11, minified: true }
-    jquery.ui/ui/safe-blur-min.js: { weight: -11, minified: true }
-  css:
-    component:
-      jquery.ui/themes/base/core.css: {}
-    theme:
-      jquery.ui/themes/base/theme.css: {}
+  js: {}
   dependencies:
     - core/jquery
+    - core/jquery.ui
 
 widget:
   version: *jquery_ui_version
   license: *jquery_ui_license
-  js:
-    jquery.ui/ui/widget-min.js: { weight: -10, minified: true }
+  js: {}
   dependencies:
-    - jquery_ui/core
+    - core/jquery.ui.widget
 
 mouse:
   version: *jquery_ui_version
   license: *jquery_ui_license
-  js:
-    jquery.ui/ui/widgets/mouse-min.js: { minified: true }
+  js: {}
   dependencies:
     - jquery_ui/widget
 
 position:
   version: *jquery_ui_version
   license: *jquery_ui_license
-  js:
-    jquery.ui/ui/position-min.js: { minified: true }
-  dependencies:
-    - jquery_ui/core
-
-form-reset:
-  version: *jquery_ui_version
-  license: *jquery_ui_license
-  js:
-    jquery.ui/ui/form-reset-mixin-min.js: { minified: true }
+  js: {}
   dependencies:
     - jquery_ui/core
